@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+/* Custom CSS styles */
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Hero section */
+.hero {
+  padding: 100px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+/* About section */
+.about {
+  padding: 80px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  color: #007bff;
+}
+
+/* Projects section */
+.projects {
+  padding: 80px 0;
+}
+
+.projects h2 {
+  font-size: 36px;
+  color: #007bff;
+}
+
+/* Contact section */
+.contact {
+  padding: 80px 0;
+}
+
+.contact h2 {
+  font-size: 36px;
+  color: #007bff;
+}
+
+.contact form {
+  margin-top: 30px;
+}
+
+.contact label {
+  font-weight: bold;
+}
+
+.contact textarea {
+  min-height: 150px;
+}
+
+/* Footer section */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+  </style>
+</head>
+<body>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Vidyansh's Website</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero section -->
+<section class="hero">
+  <div class="container text-center">
+    <h1>Welcome to My Website</h1>
+    <p>This is a basic website which uses formbold integrations.</p>
+  </div>
+</section>
+
+<!-- About section -->
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>This is the about section of my website.</p>
+  </div>
+</section>
+
+<!-- Projects section -->
+<section id="projects" class="projects">
+  <div class="container">
+    <h2>Our Projects</h2>
+    <p>This is the projects section of my website.</p>
+  </div>
+</section>
+
+<!-- Contact section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Please fill out the form below to contact us.</p>
+    <form action="https://formbold.com/s/oa2EQ" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer section -->
+<footer class="footer">
+  <div class="container text-center">
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
